@@ -306,7 +306,9 @@ h1 {
     flex-direction: row;
     justify-content: center;
   }
-
+  .fly-in-text ul {
+    display: inline-block;
+  }
   .fly-in-text li {
     display: inline-block;
     flex-direction: column;
