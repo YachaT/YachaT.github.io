@@ -310,9 +310,6 @@ h1 {
     display: inline-block;
   }
   .fly-in-text li {
-    display: inline-block;
-    flex-direction: column;
-    justify-content: center;
     margin-right: 5px;
     font-family: Avenir;
     font-weight: 100;
@@ -320,7 +317,8 @@ h1 {
     opacity: 1;
   }
 
-  ul {
+  ul.fly-in-text {
+    text-align: center;
     padding-inline-start: 0px;
   }
 
