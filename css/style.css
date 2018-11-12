@@ -309,6 +309,7 @@ h1 {
 
   .fly-in-text li {
     display: inline-block;
+    justify-content: center;
     margin-right: 5px;
     font-family: Avenir;
     font-weight: 100;
