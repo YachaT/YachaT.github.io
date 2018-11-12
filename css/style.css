@@ -316,4 +316,52 @@ h1 {
     font-size: 1em;
     opacity: 1;
   }
+
+  .home-section {
+    background: url(../img/simplebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 1000px;
+  }
+
+  #gallery-pm {
+    background: url(../img/simplebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+  }
+
+  #gallery-ux {
+    background: url(../img/simplebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 1000px;
+  }
+
+  #about {
+    background: url(../img/simplebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+  }
+
+  #software {
+    background: url(../img/simplebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 750px;
+  }
+
+  #contact-section {
+    background: url(../img/simplebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+  }
 }
