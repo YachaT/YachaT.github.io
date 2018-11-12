@@ -309,12 +309,17 @@ h1 {
 
   .fly-in-text li {
     display: inline-block;
+    flex-direction: column;
     justify-content: center;
     margin-right: 5px;
     font-family: Avenir;
     font-weight: 100;
     font-size: 1em;
     opacity: 1;
+  }
+
+  ul {
+    padding-inline-start: 0px;
   }
 
   .home-section {
