@@ -316,12 +316,19 @@ h1 {
     font-size: 1em;
     opacity: 1;
   }
+  .fly-in-text {
+    list-style: none;
+    /* position:; */
+    /* left: 50%; */
+    /* top: 50%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 
   ul.fly-in-text {
-    text-align: center;
+    /* text-align: center; */
     padding-inline-start: 0px;
-    left: 50%;
-    right: 50%;
   }
 
   .home-section {
@@ -329,7 +336,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    min-height: 1000px;
+    /* min-height: 1000px; */
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -340,7 +347,6 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
   }
 
   #gallery-pm {
