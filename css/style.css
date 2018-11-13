@@ -329,7 +329,6 @@ h1 {
   ul.fly-in-text {
     /* text-align: center; */
     padding-inline-start: 0px;
-    padding-right: 70px;
   }
 
   .home-section {
@@ -343,7 +342,7 @@ h1 {
     height: 100vh;
   }
 
-  .text-center .d-md-block .welcome {
+  .welcome {
     flex: 1;
     display: flex;
     align-items: center;
