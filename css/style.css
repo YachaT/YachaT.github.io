@@ -307,9 +307,9 @@ h1 {
     flex-direction: row;
     justify-content: center;
   }
-  /* .fly-in-text ul {
-    display: inline-block;
-  } */
+  .skill {
+    margin-bottom: 20px;
+  }
   .fly-in-text li {
     margin-right: 5px;
     font-family: Avenir;
