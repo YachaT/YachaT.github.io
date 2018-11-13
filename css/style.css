@@ -306,9 +306,10 @@ h1 {
     flex-direction: row;
     justify-content: center;
   }
-  .fly-in-text ul {
+  /* .fly-in-text ul {
     display: inline-block;
-  }
+    padding-inline-start: 0px;
+  } */
   .fly-in-text li {
     margin-right: 5px;
     font-family: Avenir;
@@ -318,7 +319,11 @@ h1 {
   }
 
   ul.fly-in-text {
-    text-align: center;
+    position: fixed;
+    /* top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px; */
     padding-inline-start: 0px;
   }
 
