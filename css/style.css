@@ -328,6 +328,16 @@ h1 {
     background-size: cover;
     background-attachment: fixed;
     min-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .text-center .d-md-block .welcome {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   #gallery-pm {
