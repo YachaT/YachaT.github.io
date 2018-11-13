@@ -329,7 +329,7 @@ h1 {
   ul.fly-in-text {
     /* text-align: center; */
     padding-inline-start: 0%;
-    padding-inline-end: 0%;
+    padding-right: 60px;
   }
 
   .home-section {
