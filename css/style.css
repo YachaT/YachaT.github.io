@@ -328,7 +328,8 @@ h1 {
 
   ul.fly-in-text {
     /* text-align: center; */
-    padding-inline-start: 0px;
+    padding-inline-start: 40px;
+    padding-right: 40px;
   }
 
   .home-section {
