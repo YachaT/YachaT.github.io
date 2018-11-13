@@ -306,9 +306,9 @@ h1 {
     flex-direction: row;
     justify-content: center;
   }
-  .fly-in-text ul {
+  /* .fly-in-text ul {
     display: inline-block;
-  }
+  } */
   .fly-in-text li {
     margin-right: 5px;
     font-family: Avenir;
@@ -320,6 +320,8 @@ h1 {
   ul.fly-in-text {
     text-align: center;
     padding-inline-start: 0px;
+    left: 50%;
+    right: 50%;
   }
 
   .home-section {
@@ -338,6 +340,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
   }
 
   #gallery-pm {
