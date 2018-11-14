@@ -1,31 +1,31 @@
 body {
-  font-family: avenir, nunito;
+  font-family: Avenir, Nunito;
 }
 .navbar {
   background: none;
 }
 
 .avenir-normal {
-  font-weight: avenir, nunito;
+  font-weight: Avenir, Nunito;
 }
 .avenir {
-  font-family: avenir, nunito;
+  font-family: Avenir, Nunito;
   font-weight: 500;
 }
 
 .avenir-cat {
-  font-family: avenir, nunito;
+  font-family: Avenir, Nunito;
   font-weight: 800;
 }
 
 .avenir-sub {
-  font-family: avenir, nunito;
+  font-family: Avenir, Nunito;
   font-weight: 200;
 }
 
 .fontweightsub {
   font-weight: 100;
-  font-family: avenir, nunito;
+  font-family: Avenir, Nunito;
 }
 
 .photo-padding {
@@ -36,7 +36,7 @@ h1 {
   color: white;
   font-weight: 900;
   margin-top: 70px;
-  font-family: avenir, nunito;
+  font-family: Avenir, Nunito;
 }
 .card-body {
   text-align: justify;
@@ -195,7 +195,7 @@ h1 {
 .fly-in-text li {
   display: inline-block;
   margin-right: 25px;
-  font-family: Avenir, nunito;
+  font-family: Avenir, Nunito;
   font-weight: 300;
   font-size: 4em;
   opacity: 1;
@@ -312,7 +312,7 @@ h1 {
   }
   .fly-in-text li {
     margin-right: 5px;
-    font-family: Avenir, nunito;
+    font-family: Avenir, Nunito;
     font-weight: 100;
     font-size: 1em;
     opacity: 1;
