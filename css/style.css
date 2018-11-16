@@ -378,3 +378,12 @@ h1 {
     min-height: 600px;
   }
 }
+
+@media screen and (min-width: 2000px) and (max-width: 5120px) {
+  .welcome {
+    padding-bottom: 200px;
+  }
+  .box {
+    display: none;
+  }
+}
