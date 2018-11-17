@@ -379,7 +379,48 @@ h1 {
   }
 }
 
-@media screen and (min-width: 2000px) and (max-width: 5120px) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  #gallery-pm {
+    background: url(../img/simplebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+  }
+
+  #gallery-ux {
+    background: url(../img/simplebg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 1000px;
+  }
+
+  #about {
+    background: url(../img/simplebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+  }
+
+  #software {
+    background: url(../img/simplebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 750px;
+  }
+
+  #contact-section {
+    background: url(../img/simplebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+  }
+}
+@media screen and (min-width: 1500px) and (max-width: 5120px) {
   .welcome {
     padding-bottom: 200px;
   }
