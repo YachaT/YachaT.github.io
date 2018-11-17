@@ -379,7 +379,7 @@ h1 {
   }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+/* @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
   #gallery-pm {
     background: url(../img/simplebg.png);
     background-repeat: no-repeat;
@@ -419,7 +419,7 @@ h1 {
     background-attachment: fixed;
     min-height: 600px;
   }
-}
+} */
 @media screen and (min-width: 1500px) and (max-width: 5120px) {
   .welcome {
     padding-bottom: 200px;
