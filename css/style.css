@@ -420,7 +420,7 @@ h1 {
     min-height: 600px;
   }
 } */
-@media screen and (min-width: 1500px) and (max-width: 5120px) {
+@media screen and (min-width: 1600px) and (max-width: 5120px) {
   .welcome {
     padding-bottom: 200px;
   }
