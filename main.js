@@ -1,3 +1,26 @@
+//back to top
+
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelector(".diamond").addEventListener("click", function() {
+    document
+      .querySelector(".home-section")
+      .scrollIntoView({ behavior: "smooth" });
+  });
+});
+
+window.addEventListener("scroll", function() {
+  var scroll = window.scrollY;
+  if (scroll > 938) {
+    document.querySelector("#diamondshape").classList.add("show");
+    document.querySelector("#diamondshape").classList.remove("noshow");
+  }
+  if (scroll < 938) {
+    document.querySelector("#diamondshape").classList.add("noshow");
+    document.querySelector("#diamondshape").classList.remove("show");
+  }
+  console.log(scroll);
+});
+
 // Initialize Firebase
 var config = {
   apiKey: "AIzaSyCoG9W3xUtWAoFhlsPwppbkJqdc2mZ1Ldo",

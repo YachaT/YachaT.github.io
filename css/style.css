@@ -5,6 +5,33 @@ body {
   background: none;
 }
 
+.diamond {
+  cursor: pointer;
+  position: fixed;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  background-color: #2e23626f;
+  width: 60px;
+  height: 60px;
+  bottom: 60px;
+  right: 60px;
+  border-radius: 10px;
+  transform: rotate(45deg);
+  padding: 5px 5px 5px 5px;
+  display: none;
+}
+#arrow {
+  font-size: 40px;
+  color: white;
+  transform: rotate(-45deg);
+}
+.show {
+  display: flex;
+}
+.noshow {
+  display: none;
+}
 .avenir-normal {
   font-weight: Avenir, Nunito;
 }
