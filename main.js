@@ -2,9 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", function() {
   document.querySelector(".diamond").addEventListener("click", function() {
-    document
-      .querySelector(".home-section")
-      .scrollIntoView({ behavior: "smooth" });
+    document.querySelector(".navbar").scrollIntoView({ behavior: "smooth" });
   });
 });
 
