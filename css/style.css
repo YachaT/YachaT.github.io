@@ -79,6 +79,10 @@ h1 {
   padding-right: 1rem !important;
 }
 
+.navbar .nav-link:hover {
+  font-weight: 600;
+}
+
 .navbar-brand {
   font-size: 30px;
   font-weight: 400;
